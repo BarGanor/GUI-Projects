@@ -1,0 +1,43 @@
+from tkinter import *
+from tkinter import ttk
+
+
+def main_window(usr_name):
+    root = Tk()
+    root.title('Main Page')
+
+    mainframe = ttk.Frame(root, padding='3 3 12 12 ')
+    mainframe.grid(column=0, row=0, sticky=(N, W, E, S))
+    root.columnconfigure(0, weight=1)
+    root.rowconfigure(0, weight=1)
+
+    ttk.Label(mainframe, text="Welcome To Our Store!").grid(column=1, row=1, sticky=W)
+
+    ttk.Button(mainframe, text='Login', command=lambda: login_page(root)).grid(column=1, row=2)
+
+    root.mainloop()
+
+
+def login_page(main_root):
+    main_root.destroy()
+    login_root = Tk()
+    login_root.title('Login Page')
+
+    mainframe = ttk.Frame(login_root, padding='3 3 12 12 ')
+    mainframe.grid(column=0, row=0, sticky=(N, W, E, S))
+    login_root.columnconfigure(0, weight=1)
+    login_root.rowconfigure(0, weight=1)
+
+    ttk.Label(mainframe, text="Enter User Name:  ").grid(column=1, row=1, sticky=W)
+    user_name = StringVar()
+    user_name_entry = ttk.Entry(mainframe, width=7, textvariable=user_name)
+    user_name_entry.grid(column=2, row=1)
+
+    ttk.Label(mainframe, text="Enter Password:  ").grid(column=1, row=2, sticky=W)
+    password_entry = ttk.Entry(mainframe, width=7, textvariable=user_name)
+    password_entry.grid(column=2, row=2)
+
+    login_root.mainloop()
+
+
+main_window('')
