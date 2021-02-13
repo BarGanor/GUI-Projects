@@ -1,0 +1,2 @@
+Tomato,3,6
+Lettuce,6,3.0
