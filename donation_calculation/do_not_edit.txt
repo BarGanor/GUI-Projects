@@ -1,0 +1,14 @@
+{'products': {u'לשש רך': {'prices': {'product': 3.0, 'prints': {u'ללא': 0, u'לוגו פרוצס': {'Base': 117, 'Diff': 0.6}, u'לוגו צבע אחד': {'Base': 117, 'Diff': 0.35}, u'הדפסה ע"ג מנשא': {'Base': 250, 'Diff': 0.6}}}},
+
+            u'לשש קשה': {'prices': {'product': 5.0, 'prints': {u'ללא': 0, u'לוגו פרוצס': {'Base': 117, 'Diff': 0.6}, u'לוגו צבע אחד': {'Base': 117, 'Diff': 0.35}, u'הדפסה ע"ג מנשא': {'Base': 250, 'Diff': 0.6}}}},
+
+            u'לוח קיר': {'prices': {'product': 7.0, 'prints': {u'ללא': 0, u'לוגו פרוצס': {'Base': 0, 'Diff': 1.4}}}},
+
+            u'יומן': {'prices': {'product': 7.0, 'prints': {u'ללא': 0, u'דף יחיד': {'Base': 117, 'Diff': 1.05}}}},
+
+            u'אגרת': {'prices': {'product': 1.2, 'prints': {u'ללא': 0}}},
+
+            u'ספר תפילות/תהילים': {'prices': {'product': 1.2, 'prints': {u'ללא': 0}}},
+
+            u'כיסוי חלה': {'prices': {'product': 20.7, 'prints': {u'ללא': 0, u'דף כפול': {'Base': 117, 'Diff': 1.4}}}}
+            }}
